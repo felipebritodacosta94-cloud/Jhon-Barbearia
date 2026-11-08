@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jhon Barbearia | Excelência e Estilo em Ceilândia - DF</title>
+  <meta name="description" content="Jhon Barbearia em Ceilândia - DF. Cortes modernos, barba, pigmentação e tratamentos. Agende seu horário pelo WhatsApp!">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: {400:'#FACC15',500:'#D4AF37',600:'#CA8A04',700:'#A16207'},
+            dark: {900:'#0A0A0A',800:'#121212',700:'#1E1E1E',600:'#2A2A2A'}
+          },
+          fontFamily: {sans:['Inter','sans-serif'],heading:['Montserrat','sans-serif']}
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-dark-900 text-gray-100 font-sans antialiased selection:bg-gold-500 selection:text-black">
+
+<header class="fixed top-0 left-0 w-full bg-dark-900/95 backdrop-blur-md border-b border-gold-500/20 z-50" id="navbar">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <a href="#inicio" class="flex items-center gap-3 group">
+        <div class="w-12 h-12 rounded-full border-2 border-gold-500 flex items-center justify-center bg-dark-800 text-gold-500 font-bold text-xl">JB</div>
+        <div><span class="font-heading font-extrabold text-xl tracking-wider text-white block">JHON</span><span class="text-xs tracking-[0.2em] text-gold-500 font-medium block">BARBEARIA</span></div>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 font-medium text-sm">
+        <a href="#inicio" class="text-gray-300 hover:text-gold-500">Início</a><a href="#sobre" class="text-gray-300 hover:text-gold-500">Sobre Nós</a><a href="#servicos" class="text-gray-300 hover:text-gold-500">Serviços</a><a href="#diferenciais" class="text-gray-300 hover:text-gold-500">Diferenciais</a><a href="#avaliacoes" class="text-gray-300 hover:text-gold-500">Avaliações</a><a href="#contato" class="text-gray-300 hover:text-gold-500">Contato</a><a href="#onde-estamos" class="text-gray-300 hover:text-gold-500">Onde Estamos</a>
+      </nav>
+      <a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer" class="hidden md:inline-flex bg-gradient-to-r from-gold-600 to-gold-400 text-dark-900 font-bold px-6 py-2.5 rounded-full items-center gap-2 text-sm"><i class="fab fa-whatsapp"></i> AGENDAR AGORA</a>
+      <button type="button" id="mobile-menu-btn" class="md:hidden text-gray-300 p-2" aria-label="Abrir menu"><i class="fas fa-bars text-2xl"></i></button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-dark-800 border-b border-gold-500/20 px-4 pt-2 pb-6 space-y-3">
+    <a href="#inicio" class="mobile-link block px-3 py-2 text-gray-300">Início</a><a href="#sobre" class="mobile-link block px-3 py-2 text-gray-300">Sobre Nós</a><a href="#servicos" class="mobile-link block px-3 py-2 text-gray-300">Serviços</a><a href="#diferenciais" class="mobile-link block px-3 py-2 text-gray-300">Diferenciais</a><a href="#avaliacoes" class="mobile-link block px-3 py-2 text-gray-300">Avaliações</a><a href="#contato" class="mobile-link block px-3 py-2 text-gray-300">Contato</a><a href="#onde-estamos" class="mobile-link block px-3 py-2 text-gray-300">Onde Estamos</a>
+    <a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer" class="w-full bg-gold-500 text-dark-900 font-bold px-6 py-3 rounded-full text-center block mt-4"><i class="fab fa-whatsapp"></i> AGENDAR AGORA</a>
+  </div>
+</header>
+
+<section id="inicio" class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden bg-gradient-to-b from-dark-900 via-dark-800 to-dark-900">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-500 text-xs font-semibold tracking-wider uppercase"><i class="fas fa-crown"></i> A Melhor Barbearia de Ceilândia</div>
+        <h1 class="font-heading font-black text-4xl sm:text-5xl lg:text-6xl text-white leading-tight">ESTILO, RESPEITO E <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-500 to-gold-600">TRADIÇÃO</span></h1>
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto lg:mx-0">Mais do que um corte, uma experiência única de cuidado masculino. Ambiente climatizado, atendimento com horário marcado e profissionais especialistas.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+          <a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-gradient-to-r from-gold-600 to-gold-400 text-dark-900 font-extrabold px-8 py-4 rounded-full text-center"><i class="fab fa-whatsapp"></i> AGENDAR HORÁRIO</a>
+          <a href="#servicos" class="w-full sm:w-auto bg-dark-700 text-white font-bold px-8 py-4 rounded-full border border-gold-500/20 text-center">VER SERVIÇOS</a>
+        </div>
+        <div class="pt-8 border-t border-dark-700 grid grid-cols-3 gap-4 text-center lg:text-left">
+          <div><span class="block text-2xl font-black text-gold-500">4.9 ★</span><span class="text-xs text-gray-400">Avaliação Google</span></div>
+          <div><span class="block text-2xl font-black text-gold-500">+3.000</span><span class="text-xs text-gray-400">Clientes Atendidos</span></div>
+          <div><span class="block text-2xl font-black text-gold-500">100%</span><span class="text-xs text-gray-400">Pontualidade</span></div>
+        </div>
+      </div>
+      <div class="lg:col-span-5 flex justify-center">
+        <div class="relative w-full max-w-md bg-dark-800 rounded-2xl p-6 border border-gold-500/30 text-center space-y-6">
+          <div class="w-44 h-44 mx-auto rounded-full bg-dark-900 border-4 border-gold-500 flex items-center justify-center"><i class="fas fa-scissors text-6xl text-gold-500"></i></div>
+          <div><h2 class="font-heading font-extrabold text-2xl text-white">JHON BARBEARIA</h2><p class="text-gold-500 font-medium text-sm mt-1">@jhon_barbeariia</p></div>
+          <p class="text-gray-300 text-sm italic">"O seu visual é a sua assinatura. Venha cuidar do seu estilo com quem entende do assunto."</p>
+          <span class="inline-flex items-center gap-2 text-xs font-semibold text-emerald-400 bg-emerald-950/60 px-3 py-1.5 rounded-full"><span class="w-2 h-2 rounded-full bg-emerald-400"></span> Agendamento Disponível</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="py-20 bg-dark-900 border-t border-dark-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16 space-y-4"><h2 class="text-gold-500 font-semibold text-sm tracking-widest uppercase">SOBRE NÓS</h2><h3 class="font-heading font-extrabold text-3xl sm:text-4xl text-white">CONHEÇA A JHON BARBEARIA</h3><div class="w-20 h-1 bg-gold-500 mx-auto rounded-full"></div></div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div class="space-y-6 text-gray-300 leading-relaxed">
+        <p class="text-lg">A <strong class="text-white">Jhon Barbearia</strong> nasceu com a missão de oferecer mais do que um simples corte de cabelo ou barbear tradicional. Criamos um espaço pensado para o homem moderno que valoriza seu estilo, conforto e bem-estar.</p>
+        <p>Localizada estrategicamente em Ceilândia - DF, nossa barbearia une técnicas clássicas às tendências modernas de corte, barba e tratamentos capilares, garantindo resultados impecáveis e a máxima satisfação de cada cliente.</p>
+        <p>Nosso compromisso é com a excelência no atendimento, a pontualidade nos horários e a entrega de um visual que aumente sua confiança e autoestima.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="bg-dark-800 p-6 rounded-xl border border-gold-500/20"><i class="fas fa-bullseye text-2xl text-gold-500"></i><h4 class="font-heading font-bold text-white text-lg mt-4 mb-2">Missão</h4><p class="text-gray-400 text-sm">Proporcionar autoestima e estilo através de serviços de barbearia de altíssima qualidade.</p></div>
+        <div class="bg-dark-800 p-6 rounded-xl border border-gold-500/20"><i class="fas fa-eye text-2xl text-gold-500"></i><h4 class="font-heading font-bold text-white text-lg mt-4 mb-2">Visão</h4><p class="text-gray-400 text-sm">Ser a barbearia referência em Ceilândia e região pelo excelente atendimento e técnica.</p></div>
+        <div class="bg-dark-800 p-6 rounded-xl border border-gold-500/20 sm:col-span-2"><i class="fas fa-gem text-2xl text-gold-500"></i><h4 class="font-heading font-bold text-white text-lg mt-4 mb-2">Valores</h4><p class="text-gray-400 text-sm">Respeito ao cliente, pontualidade, higiene rigorosa, aperfeiçoamento contínuo e paixão pelo trabalho bem feito.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servicos" class="py-20 bg-dark-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16 space-y-4"><h2 class="text-gold-500 font-semibold text-sm tracking-widest uppercase">CATÁLOGO DE SERVIÇOS</h2><h3 class="font-heading font-extrabold text-3xl sm:text-4xl text-white">NOSSOS SERVIÇOS E VALORES</h3><p class="text-gray-400">Escolha o serviço desejado e faça seu agendamento direto pelo WhatsApp.</p><div class="w-20 h-1 bg-gold-500 mx-auto rounded-full"></div></div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-dark-900 rounded-2xl p-6 border border-gold-500/20 flex flex-col justify-between"><div><div class="flex justify-between mb-4"><i class="fas fa-cut text-2xl text-gold-500"></i><span class="text-gold-500 font-extrabold text-2xl">R$ 35,00</span></div><h4 class="font-heading font-bold text-xl text-white mb-2">Corte Moderno / Social</h4><p class="text-gray-400 text-sm mb-6">Corte personalizado com acabamento perfeito na lâmina, lavagem e finalização com pomada modeladora.</p></div><a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20Corte%20Moderno." target="_blank" class="bg-dark-800 text-gold-500 font-bold py-3 rounded-xl border border-gold-500/30 text-center"> <i class="fab fa-whatsapp"></i> Agendar Corte</a></div>
+      <div class="bg-dark-900 rounded-2xl p-6 border border-gold-500/20 flex flex-col justify-between"><div><div class="flex justify-between mb-4"><i class="fas fa-user-ninja text-2xl text-gold-500"></i><span class="text-gold-500 font-extrabold text-2xl">R$ 25,00</span></div><h4 class="font-heading font-bold text-xl text-white mb-2">Barba Completa</h4><p class="text-gray-400 text-sm mb-6">Modelagem de barba com toalha quente, alinhamento, hidratação e óleos essenciais para a pele.</p></div><a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20Barba%20Completa." target="_blank" class="bg-dark-800 text-gold-500 font-bold py-3 rounded-xl border border-gold-500/30 text-center"><i class="fab fa-whatsapp"></i> Agendar Barba</a></div>
+      <div class="bg-gradient-to-b from-dark-900 to-dark-800 rounded-2xl p-6 border-2 border-gold-500 flex flex-col justify-between relative"><span class="absolute top-3 right-3 bg-gold-500 text-dark-900 text-xs font-black px-3 py-1 rounded-full">MAIS PEDIDO</span><div><div class="flex justify-between mb-4"><i class="fas fa-crown text-2xl text-gold-500"></i><span class="text-gold-500 font-extrabold text-2xl">R$ 55,00</span></div><h4 class="font-heading font-bold text-xl text-white mb-2">Combo VIP (Corte + Barba)</h4><p class="text-gray-400 text-sm mb-6">O tratamento completo! Corte moderno de cabelo, barba alinhada com toalha quente e sobrancelha inclusa.</p></div><a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20o%20Combo%20VIP." target="_blank" class="bg-gold-500 text-dark-900 font-extrabold py-3 rounded-xl text-center"><i class="fab fa-whatsapp"></i> Agendar Combo VIP</a></div>
+      <div class="bg-dark-900 rounded-2xl p-6 border border-gold-500/20 flex flex-col justify-between"><div><div class="flex justify-between mb-4"><i class="fas fa-eye text-2xl text-gold-500"></i><span class="text-gold-500 font-extrabold text-2xl">R$ 15,00</span></div><h4 class="font-heading font-bold text-xl text-white mb-2">Design de Sobrancelha</h4><p class="text-gray-400 text-sm mb-6">Alinhamento e limpeza das sobrancelhas na navalha para realçar o olhar masculino de forma natural.</p></div><a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20o%20Design%20de%20Sobrancelha." target="_blank" class="bg-dark-800 text-gold-500 font-bold py-3 rounded-xl border border-gold-500/30 text-center">Agendar Sobrancelha</a></div>
+      <div class="bg-dark-900 rounded-2xl p-6 border border-gold-500/20 flex flex-col justify-between"><div><div class="flex justify-between mb-4"><i class="fas fa-paint-brush text-2xl text-gold-500"></i><span class="text-gold-500 font-extrabold text-2xl">R$ 30,00</span></div><h4 class="font-heading font-bold text-xl text-white mb-2">Pigmentação de Barba / Cabelo</h4><p class="text-gray-400 text-sm mb-6">Técnica para cobrir falhas e realçar as linhas da barba ou do cabelo de forma natural e duradoura.</p></div><a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20Pigmenta%C3%A7%C3%A3o." target="_blank" class="bg-dark-800 text-gold-500 font-bold py-3 rounded-xl border border-gold-500/30 text-center">Agendar Pigmentação</a></div>
+      <div class="bg-dark-900 rounded-2xl p-6 border border-gold-500/20 flex flex-col justify-between"><div><div class="flex justify-between mb-4"><i class="fas fa-pump-soap text-2xl text-gold-500"></i><span class="text-gold-500 font-extrabold text-2xl">R$ 40,00</span></div><h4 class="font-heading font-bold text-xl text-white mb-2">Selagem / Hidratação</h4><p class="text-gray-400 text-sm mb-6">Tratamento capilar intensivo para alinhamento dos fios, controle de volume e brilho saudável.</p></div><a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20Selagem." target="_blank" class="bg-dark-800 text-gold-500 font-bold py-3 rounded-xl border border-gold-500/30 text-center">Agendar Tratamento</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="diferenciais" class="py-20 bg-dark-900 border-t border-dark-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-16"><h2 class="text-gold-500 text-sm tracking-widest">POR QUE NOS ESCOLHER</h2><h3 class="font-heading font-extrabold text-3xl sm:text-4xl text-white mt-3">NOSSOS DIFERENCIAIS</h3></div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-dark-800 p-8 rounded-2xl text-center border border-gold-500/10"><i class="fas fa-mug-hot text-3xl text-gold-500 mb-5"></i><h4 class="font-heading font-bold text-white text-lg mb-2">Bebida Cortesia</h4><p class="text-gray-400 text-sm">Cerveja bem gelada ou café fresquinho enquanto você aguarda seu atendimento.</p></div>
+      <div class="bg-dark-800 p-8 rounded-2xl text-center border border-gold-500/10"><i class="fas fa-snowflake text-3xl text-gold-500 mb-5"></i><h4 class="font-heading font-bold text-white text-lg mb-2">Ambiente Climatizado</h4><p class="text-gray-400 text-sm">Espaço confortável com ar-condicionado, Wi-Fi liberado e ambiente agradável.</p></div>
+      <div class="bg-dark-800 p-8 rounded-2xl text-center border border-gold-500/10"><i class="fas fa-clock text-3xl text-gold-500 mb-5"></i><h4 class="font-heading font-bold text-white text-lg mb-2">Sem Filas de Espera</h4><p class="text-gray-400 text-sm">Agendamento rápido pelo WhatsApp com garantia de pontualidade no seu horário.</p></div>
+      <div class="bg-dark-800 p-8 rounded-2xl text-center border border-gold-500/10"><i class="fas fa-certificate text-3xl text-gold-500 mb-5"></i><h4 class="font-heading font-bold text-white text-lg mb-2">Profissionalismo</h4><p class="text-gray-400 text-sm">Barbeiros experientes e em constante atualização nas melhores técnicas.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="avaliacoes" class="py-20 bg-dark-800 border-t border-dark-700">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-16"><h2 class="text-gold-500 text-sm tracking-widest">O QUE DIZEM NOSSOS CLIENTES</h2><h3 class="font-heading font-extrabold text-3xl sm:text-4xl text-white mt-3">AVALIAÇÕES E DEPOIMENTOS</h3></div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-dark-900 p-8 rounded-2xl border border-gold-500/20 space-y-4"><div class="text-gold-500">★★★★★</div><p class="text-gray-300 text-sm italic">"Melhor barbearia de Ceilândia disparado! O atendimento é nota 10, o corte fica exatamente como você pede e o ambiente é top demais."</p><div class="pt-4 border-t border-dark-800"><strong class="text-white text-sm">Matheus Andrade</strong><p class="text-xs text-gray-500">Cliente Frequente</p></div></div>
+      <div class="bg-dark-900 p-8 rounded-2xl border border-gold-500/20 space-y-4"><div class="text-gold-500">★★★★★</div><p class="text-gray-300 text-sm italic">"Pontualidade nota 1000! Agendei pelo WhatsApp e fui atendido exatamente no horário. A barba com toalha quente é excelente."</p><div class="pt-4 border-t border-dark-800"><strong class="text-white text-sm">Lucas Silva</strong><p class="text-xs text-gray-500">Cliente Verificado</p></div></div>
+      <div class="bg-dark-900 p-8 rounded-2xl border border-gold-500/20 space-y-4"><div class="text-gold-500">★★★★★</div><p class="text-gray-300 text-sm italic">"Lugar super higienizado, cerveja gelada e corte de primeira. Faço a barba e o cabelo com o Jhon há mais de um ano."</p><div class="pt-4 border-t border-dark-800"><strong class="text-white text-sm">Rodrigo Gomes</strong><p class="text-xs text-gray-500">Cliente Verificado</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="onde-estamos" class="py-20 bg-dark-900">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-16"><h2 class="text-gold-500 text-sm tracking-widest">LOCALIZAÇÃO</h2><h3 class="font-heading font-extrabold text-3xl sm:text-4xl text-white mt-3">ONDE ESTAMOS</h3><p class="text-gray-400 mt-3">Venha nos fazer uma visita. Estamos localizados no coração de Ceilândia.</p></div>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <div class="lg:col-span-5 bg-dark-800 p-8 rounded-2xl border border-gold-500/20 space-y-6">
+        <h4 class="font-heading font-bold text-2xl text-white">Jhon Barbearia</h4>
+        <div><strong class="text-white block text-sm mb-1"><i class="fas fa-map-marker-alt text-gold-500"></i> Endereço:</strong><p class="text-gray-400 text-sm">St. Q - Ceilândia, Brasília - DF, 72270-402</p></div>
+        <div><strong class="text-white block text-sm mb-1"><i class="fas fa-clock text-gold-500"></i> Horário de Funcionamento:</strong><p class="text-gray-400 text-sm">Todos os dias: 09:00 às 20:00</p></div>
+        <div><strong class="text-white block text-sm mb-1"><i class="fas fa-phone-alt text-gold-500"></i> Telefone / WhatsApp:</strong><p class="text-gray-400 text-sm">(61) 99939-2319</p></div>
+        <a href="https://maps.app.goo.gl/HACMdLSXvkgwX1J27?g_st=ac" target="_blank" rel="noopener noreferrer" class="block w-full bg-gradient-to-r from-gold-600 to-gold-400 text-dark-900 font-extrabold py-4 rounded-xl text-center"><i class="fas fa-directions"></i> COMO CHEGAR (GOOGLE MAPS)</a>
+      </div>
+      <div class="lg:col-span-7 bg-dark-800 rounded-2xl overflow-hidden border border-gold-500/20 min-h-[350px]"><iframe title="Localização Jhon Barbearia" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.743126781298!2d-48.1189917!3d-15.8190777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a333d06b12975%3A0xb36d8b02bd1616c6!2sSt.%20Q%20-%20Ceil%C3%A2ndia%2C%20Bras%C3%ADlia%20-%20DF%2C%2072270-402!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" class="w-full h-full min-h-[400px] border-0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="py-20 bg-dark-800 border-t border-dark-700">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-16"><h2 class="text-gold-500 text-sm tracking-widest">FALE CONOSCO</h2><h3 class="font-heading font-extrabold text-3xl sm:text-4xl text-white mt-3">ENTRE EM CONTATO</h3></div>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+      <div class="lg:col-span-5 space-y-6"><h4 class="font-heading font-bold text-2xl text-white">Canais de Atendimento</h4><p class="text-gray-400 text-sm">Dúvidas sobre serviços, horários ou valores? Fale diretamente conosco pelos nossos canais oficiais abaixo:</p>
+        <a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20barbearia." target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 bg-dark-900 border border-gold-500/20 rounded-xl p-5 text-white"><i class="fab fa-whatsapp text-3xl text-gold-500"></i><span><strong>WhatsApp</strong><br><small class="text-gray-400">(61) 99939-2319</small></span></a>
+        <a href="https://www.instagram.com/jhon_barbeariia/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 bg-dark-900 border border-gold-500/20 rounded-xl p-5 text-white"><i class="fab fa-instagram text-3xl text-gold-500"></i><span><strong>Instagram</strong><br><small class="text-gray-400">@jhon_barbeariia</small></span></a>
+      </div>
+      <div class="lg:col-span-7 bg-dark-900 p-8 rounded-2xl border border-gold-500/20"><h4 class="font-heading font-bold text-2xl text-white mb-6">Envie uma Mensagem Direta</h4>
+        <form id="contact-form" class="space-y-4">
+          <div><label for="form-name" class="block text-xs font-semibold text-gray-400 uppercase mb-2">Seu Nome *</label><input type="text" id="form-name" required placeholder="Digite seu nome completo" class="w-full bg-dark-800 border border-dark-700 rounded-xl px-4 py-3 text-white"></div>
+          <div><label for="form-phone" class="block text-xs font-semibold text-gray-400 uppercase mb-2">Seu WhatsApp / Telefone *</label><input type="tel" id="form-phone" required placeholder="(61) 99999-9999" class="w-full bg-dark-800 border border-dark-700 rounded-xl px-4 py-3 text-white"></div>
+          <div><label for="form-service" class="block text-xs font-semibold text-gray-400 uppercase mb-2">Serviço de Interesse</label><select id="form-service" class="w-full bg-dark-800 border border-dark-700 rounded-xl px-4 py-3 text-white"><option value="Corte Moderno">Corte Moderno (R$ 35,00)</option><option value="Barba Completa">Barba Completa (R$ 25,00)</option><option value="Combo VIP">Combo VIP (Corte + Barba) (R$ 55,00)</option><option value="Sobrancelha">Sobrancelha (R$ 15,00)</option><option value="Pigmentação">Pigmentação (R$ 30,00)</option><option value="Selagem / Hidratação">Selagem / Hidratação (R$ 40,00)</option><option value="Outros / Dúvidas">Outros / Dúvidas</option></select></div>
+          <div><label for="form-message" class="block text-xs font-semibold text-gray-400 uppercase mb-2">Mensagem (Opcional)</label><textarea id="form-message" rows="4" placeholder="Escreva sua mensagem aqui..." class="w-full bg-dark-800 border border-dark-700 rounded-xl px-4 py-3 text-white"></textarea></div>
+          <button type="submit" class="w-full bg-gold-500 text-dark-900 font-extrabold py-4 rounded-xl"><i class="fab fa-whatsapp"></i> ENVIAR MENSAGEM PELO WHATSAPP</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark-900 border-t border-dark-800 pt-16 pb-8 text-gray-400 text-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-dark-800">
+      <div class="space-y-4"><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full border border-gold-500 flex items-center justify-center text-gold-500 font-bold">JB</div><span class="font-heading font-extrabold text-lg text-white">JHON BARBEARIA</span></div><p class="text-xs">Barbearia moderna focada no estilo, conforto e satisfação do cliente em Ceilândia - DF.</p><div class="flex gap-3"><a href="https://www.instagram.com/jhon_barbeariia/" target="_blank" rel="noopener noreferrer" class="text-gold-500 text-xl"><i class="fab fa-instagram"></i></a><a href="https://api.whatsapp.com/send?phone=5561999392319" target="_blank" rel="noopener noreferrer" class="text-gold-500 text-xl"><i class="fab fa-whatsapp"></i></a></div></div>
+      <div><h5 class="font-heading font-bold text-white mb-4 uppercase text-xs">Navegação</h5><ul class="space-y-2 text-xs"><li><a href="#inicio">Início</a></li><li><a href="#sobre">Sobre Nós</a></li><li><a href="#servicos">Serviços & Preços</a></li><li><a href="#diferenciais">Diferenciais</a></li><li><a href="#avaliacoes">Avaliações</a></li></ul></div>
+      <div><h5 class="font-heading font-bold text-white mb-4 uppercase text-xs">Contato</h5><ul class="space-y-2 text-xs"><li>WhatsApp: (61) 99939-2319</li><li>Instagram: @jhon_barbeariia</li><li>Endereço: St. Q - Ceilândia, Brasília - DF</li><li>CEP: 72270-402</li></ul></div>
+      <div><h5 class="font-heading font-bold text-white mb-4 uppercase text-xs">Informações Legais</h5><ul class="space-y-2 text-xs"><li><button id="open-privacy-modal" class="hover:text-gold-500">Política de Privacidade</button></li><li><button id="open-terms-modal" class="hover:text-gold-500">Termos de Uso</button></li></ul></div>
+    </div>
+    <div class="pt-8 text-center text-xs text-gray-500 flex flex-col sm:flex-row justify-between gap-4"><p>&copy; 2026 Jhon Barbearia. Todos os direitos reservados.</p><p>Ceilândia, Brasília - DF</p></div>
+  </div>
+</footer>
+
+<a href="https://api.whatsapp.com/send?phone=5561999392319&text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Jhon%20Barbearia." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 w-14 h-14 bg-emerald-500 text-white rounded-full flex items-center justify-center text-3xl shadow-lg z-50" aria-label="Contato via WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+<div id="privacy-modal" class="fixed inset-0 bg-black/80 z-50 hidden items-center justify-center p-4"><div class="bg-dark-800 border border-gold-500/30 max-w-2xl w-full rounded-2xl p-6 space-y-4"><div class="flex justify-between"><h3 class="font-heading font-bold text-xl text-white">Política de Privacidade</h3><button id="close-privacy-modal" class="text-white text-xl">&times;</button></div><div class="text-gray-300 text-sm space-y-3"><p>A Jhon Barbearia respeita a sua privacidade. Os dados enviados pelo formulário são usados exclusivamente para atendimento via WhatsApp.</p><p>Os seus dados não serão compartilhados com terceiros nem utilizados para envio de SPAM.</p></div><div class="text-right"><button id="close-privacy-modal-btn" class="bg-gold-500 text-dark-900 font-bold px-6 py-2 rounded-xl">Entendi</button></div></div></div>
+<div id="terms-modal" class="fixed inset-0 bg-black/80 z-50 hidden items-center justify-center p-4"><div class="bg-dark-800 border border-gold-500/30 max-w-2xl w-full rounded-2xl p-6 space-y-4"><div class="flex justify-between"><h3 class="font-heading font-bold text-xl text-white">Termos de Uso</h3><button id="close-terms-modal" class="text-white text-xl">&times;</button></div><div class="text-gray-300 text-sm space-y-3"><p>Ao utilizar o site da Jhon Barbearia, concorda com os termos aqui apresentados.</p><p>Os agendamentos dependem da confirmação da disponibilidade pelo estabelecimento via WhatsApp. Valores e serviços podem sofrer alterações.</p></div><div class="text-right"><button id="close-terms-modal-btn" class="bg-gold-500 text-dark-900 font-bold px-6 py-2 rounded-xl">Entendi</button></div></div></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  if (btn && menu) {
+    btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+    document.querySelectorAll('.mobile-link').forEach(link => link.addEventListener('click', () => menu.classList.add('hidden')));
+  }
+
+  const form = document.getElementById('contact-form');
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('form-name').value;
+      const phone = document.getElementById('form-phone').value;
+      const service = document.getElementById('form-service').value;
+      const message = document.getElementById('form-message').value;
+      let text = `Olá, meu nome é ${name}.\nMeu Telefone: ${phone}\nServiço de Interesse: ${service}`;
+      if (message.trim() !== '') text += `\nMensagem: ${message}`;
+      window.open(`https://api.whatsapp.com/send?phone=5561999392319&text=${encodeURIComponent(text)}`, '_blank');
+    });
+  }
+
+  const setupModal = (modalId, openId, closeIds) => {
+    const modal = document.getElementById(modalId);
+    const open = document.getElementById(openId);
+    if (modal && open) {
+      open.addEventListener('click', () => { modal.classList.remove('hidden'); modal.classList.add('flex'); });
+      closeIds.forEach(id => {
+        const close = document.getElementById(id);
+        if (close) close.addEventListener('click', () => { modal.classList.add('hidden'); modal.classList.remove('flex'); });
+      });
+      modal.addEventListener('click', e => {
+        if (e.target === modal) { modal.classList.add('hidden'); modal.classList.remove('flex'); }
+      });
+    }
+  };
+  setupModal('privacy-modal', 'open-privacy-modal', ['close-privacy-modal', 'close-privacy-modal-btn']);
+  setupModal('terms-modal', 'open-terms-modal', ['close-terms-modal', 'close-terms-modal-btn']);
+});
+</script>
+</body>
+</html>
